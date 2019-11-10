@@ -72,5 +72,5 @@ def get_state_tweets(state_coordinates, state_radius, state_pop_density):
 state_tweets = get_state_tweets(STATE_COORDINATES, RADIUS, POPULATION_DENSITY)
 polarity_data = get_polarity_data(state_tweets)
 
-with open('data.txt', 'w') as outfile:
+with open('data.json', 'w') as outfile:
     json.dump(polarity_data, outfile)
