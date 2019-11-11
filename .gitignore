@@ -4,3 +4,4 @@ temporary/
 env/
 venv/
 config.py
+.vscode/

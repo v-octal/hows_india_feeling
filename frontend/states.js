@@ -194,7 +194,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Arunanchal Pradesh", density: 0 }
+      properties: {
+        name: "Arunanchal Pradesh",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -394,7 +400,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Assam", density: 0 }
+      properties: {
+        name: "Assam",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -582,7 +594,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Bihar", density: 0 }
+      properties: {
+        name: "Bihar",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -815,7 +833,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Chhattisgarh", density: 0 }
+      properties: {
+        name: "Chhattisgarh",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -854,7 +878,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Goa", density: 0 }
+      properties: {
+        name: "Goa",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -1231,7 +1261,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Gujarat", density: 0 }
+      properties: {
+        name: "Gujarat",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -1393,7 +1429,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Haryana", density: 0 }
+      properties: {
+        name: "Haryana",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -1520,7 +1562,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Himachal Pradesh", density: 0 }
+      properties: {
+        name: "Himachal Pradesh",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -1782,7 +1830,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Jammu & Kashmir", density: 0 }
+      properties: {
+        name: "Jammu & Kashmir",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -1989,7 +2043,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Jharkhand", density: 0 }
+      properties: {
+        name: "Jharkhand",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -2260,7 +2320,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Karnataka", density: 0 }
+      properties: {
+        name: "Karnataka",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -2394,7 +2460,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Kerala", density: 0 }
+      properties: {
+        name: "Kerala",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -2837,7 +2909,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Madhya Pradesh", density: 0 }
+      properties: {
+        name: "Madhya Pradesh",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3189,7 +3267,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Maharashtra", density: 0 }
+      properties: {
+        name: "Maharashtra",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3258,7 +3342,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Manipur", density: 0 }
+      properties: {
+        name: "Manipur",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3341,7 +3431,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Meghalaya", density: 0 }
+      properties: {
+        name: "Meghalaya",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3414,7 +3510,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Mizoram", density: 0 }
+      properties: {
+        name: "Mizoram",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3488,7 +3590,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Nagaland", density: 0 }
+      properties: {
+        name: "Nagaland",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3633,7 +3741,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Punjab", density: 0 }
+      properties: {
+        name: "Punjab",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -3980,7 +4094,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Rajasthan", density: 0 }
+      properties: {
+        name: "Rajasthan",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -4024,7 +4144,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Sikkim", density: 0 }
+      properties: {
+        name: "Sikkim",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -4392,7 +4518,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Tamil Nadu", density: 0 }
+      properties: {
+        name: "Tamil Nadu",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -4565,7 +4697,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Telangana", density: 0 }
+      properties: {
+        name: "Telangana",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -4623,7 +4761,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Tripura", density: 0 }
+      properties: {
+        name: "Tripura",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -4962,7 +5106,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Uttar Pradesh", density: 0 }
+      properties: {
+        name: "Uttar Pradesh",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -5079,7 +5229,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Uttarakhand", density: 0 }
+      properties: {
+        name: "Uttarakhand",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -5487,7 +5643,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "West Bengal", density: 0 }
+      properties: {
+        name: "West Bengal",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -5691,7 +5853,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Odisha", density: 0 }
+      properties: {
+        name: "Odisha",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     },
     {
       type: "Feature",
@@ -5996,7 +6164,13 @@ var statesGeoJson = {
           ]
         ]
       },
-      properties: { name: "Andhra Pradesh", density: 0 }
+      properties: {
+        name: "Andhra Pradesh",
+        density: 0,
+        pos_count: 0,
+        neu_count: 0,
+        neg_count: 0
+      }
     }
   ]
 };
