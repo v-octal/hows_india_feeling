@@ -5,3 +5,4 @@ env/
 venv/
 config.py
 .vscode/
+data.json

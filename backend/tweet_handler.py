@@ -12,12 +12,12 @@ auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth, wait_on_rate_limit=True)
 
 
-def get_tweets(geo):
+def get_tweets(geo, tweet_count: int):
     tweets = tw.Cursor(api.search,
                        geocode=geo,
                        lang="en",
                        tweet_mode='extended',
-                       result_type="recent").items(50)
+                       result_type="recent").items(tweet_count)
     tweet_data = []
 
     for tweet in tweets:
@@ -36,14 +36,16 @@ def get_polarity(state_data):
         curr_blob = TextBlob(tweet.full_text)
         polarity = curr_blob.sentiment.polarity
         sentiment_polarity += polarity
-        if polarity > 0.3:
+        if polarity > 0.1:
             pos_tweets += 1
-        elif polarity < -0.3:
+        elif polarity < -0.1:
             neg_tweets += 1
         else:
             neutral += 1
 
-    return [sentiment_polarity/len(state_data), pos_tweets, neutral, neg_tweets]
+    avg_sentiment = (pos_tweets - neg_tweets) / len(state_data)
+
+    return [avg_sentiment, pos_tweets, neutral, neg_tweets]
 
 
 def get_polarity_data(state_data):
@@ -58,12 +60,26 @@ def get_polarity_data(state_data):
 def get_state_tweets(state_coordinates, state_radius, state_pop_density):
 
     state_tweets = {}
+    base_count = 40
+    fetch_limit = 29*80
+    available = fetch_limit - base_count*29
+
+    norm_factor = 0
+    for key in state_pop_density:
+        norm_factor += state_pop_density[key]
+
+    tweet_count = {}
+    for key in state_pop_density:
+        tweet_count[key] = base_count + \
+            (state_pop_density[key] * available) / norm_factor
+
     for key in state_coordinates:
         geo = str(state_coordinates[key][0]) + "," + \
             str(state_coordinates[key][1]) + "," + \
             str(state_radius[key]/1000) + 'km'
 
-        curr_tweets = get_tweets(geo)
+        print(key, tweet_count[key])
+        curr_tweets = get_tweets(geo, int(tweet_count[key]))
         state_tweets[key] = curr_tweets
 
     return state_tweets
