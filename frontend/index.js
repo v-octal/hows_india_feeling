@@ -37,13 +37,13 @@ info.update = function(props) {
         props.name +
         "</b><br />" +
         "Positive: " +
-        props.pos_count / total +
+        ((props.pos_count * 100) / total).toFixed(2) +
         "% <br />" +
         "Neutral : " +
-        props.neu_count / total +
+        ((props.neu_count * 100) / total).toFixed(2) +
         "% <br />" +
         "Negative: " +
-        props.neg_count / total +
+        ((props.neg_count * 100) / total).toFixed(2) +
         "% <br />"
       : "Hover over a state");
 };
