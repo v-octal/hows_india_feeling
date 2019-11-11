@@ -1,5 +1,5 @@
 var map = L.map("map").setView([23, 81], 5);
-api_url = "http://127.0.0.1:5000/";
+api_url = "https://secure-escarpment-52803.herokuapp.com/";
 var geojson;
 
 function getColor(d) {
